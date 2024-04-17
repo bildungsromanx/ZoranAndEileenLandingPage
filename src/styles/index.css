@@ -8,3 +8,9 @@ a {
 .carousel-item {
     transition: ease-in-out; 
 }
+#jumbotron {
+    margin: 10px 0px 30px 0px;
+}
+.card {
+    margin: auto;
+}

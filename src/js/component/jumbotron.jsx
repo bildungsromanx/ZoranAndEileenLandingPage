@@ -2,11 +2,11 @@ import React from "react";
 
 const Jumbotron = () =>{
     return(
-        <div class="card">
-            <div class="card-body">
-                <h1 class="card-title">Special title treatment</h1>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div className="card" id="jumbotron">
+            <div className="card-body">
+                <h1 className="card-title">Rent Your Stay!</h1>
+                <p className="card-text">Escape to your perfect getaway with our cozy rentals, offering comfort, convenience, and unforgettable experiences for every traveler.</p>
+                <a href="#" className="btn btn-dark">Go somewhere</a>
             </div>
         </div>
     );
